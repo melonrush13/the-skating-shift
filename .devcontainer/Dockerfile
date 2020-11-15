@@ -5,7 +5,7 @@ ARG VARIANT="3"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 # [Optional] Allow the vscode user to pip install globally w/o sudo
-ENV PIP_TARGET=/usr/local/pip-global
+ENV PIP_TARGET=/usr/local/pip-globaldd
 ENV PYTHONPATH=${PIP_TARGET}:${PYTHONPATH}
 ENV PATH=${PIP_TARGET}/bin:${PATH}
 RUN mkdir -p ${PIP_TARGET} \
