@@ -1,6 +1,6 @@
 # the-skating-shift
 
-## Development
+## Dev Environment
 
 ### Development Container
 
@@ -15,3 +15,10 @@ Dev Containers allows users to run their development environment inside of a Doc
 
 - Press <kbd>F5</kbd> to launch the app in the container
 - Press <kbd>F1</kbd> to run the Forward a port command
+
+## Get Data
+
+#### Requirements
+
+- [Twitter Developer Account](https://developer.twitter.com/) Needed to gain access to Twitter API
+- [Tweepy](https://www.tweepy.org/) Python library for accessing the Twitter API
