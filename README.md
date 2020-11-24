@@ -22,3 +22,5 @@ Dev Containers allows users to run their development environment inside of a Doc
 
 - [Twitter Developer Account](https://developer.twitter.com/) Needed to gain access to Twitter API
 - [Tweepy](https://www.tweepy.org/) Python library for accessing the Twitter API
+- [Pandas]
+    - DataFrame: 2D data structure allowing us to display data in tabular fashion
