@@ -32,14 +32,14 @@ def get_tweets_tweepy(keyword, date):
 def get_tweets_sn():
     snScrapedTweets = []
     # iterate through tweets using TwitterSearchScrapper and save them to array
-    for i, tweet in enumerate(sntwitter.TwitterSearchScraper('rollerskates since:2020-01-01 until:2020-12-01').get_items()):
+    for i, tweet in enumerate(sntwitter.TwitterSearchScraper('rollerblades since:2020-01-01 until:2020-12-01').get_items()):
         if i>100000:
             break
         snScrapedTweets.append([tweet.date, tweet.id, tweet.content, tweet.username])
 
     # export tweets to dataframe
     df = pd.DataFrame(snScrapedTweets, columns = ['datetime', 'tweet_id', 'text', 'username'])
-    df.to_csv('2020_rollerskates_snscrape_tweets.csv', index=False)
+    df.to_csv('2020_rollerbladessnscrape_tweets.csv', index=False)
 
 #get tweets using Tweepy
 #get_tweets_tweepy("rollerskating", '2020-01-01')

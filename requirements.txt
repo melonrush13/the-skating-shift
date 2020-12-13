@@ -2,3 +2,9 @@ tweepy
 pandas
 numpy
 snscrape
+jupyter
+matplotlib
+scikit-learn
+textblob
+wordcloud
+PIL
